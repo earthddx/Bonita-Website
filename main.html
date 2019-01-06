@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SEO - Search Engine Optimization -->
+    <meta name="description" content="Biuro Obrotu Nieruchomosciami">
+    <meta name="keywords" content="Biuro, Zarzadzanie, Nieruchomosci, Wyceny, Wspolnota mieszkaniowa">
+
+    <title>Bonita</title>
+
+    <!-- Import Montserrat & Playfair Display Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <!--<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">-->
+
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/animate.css/animate.css">
+
+    <!-- Import Main Styles -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive/responsive.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+    <!-- BACKDROP -->
+    <div class="backdrop" id="page-backdrop"></div>
+    <div class="backdrop" id="modal-backdrop"></div>
+
+    <!-- MODALS -->
+    <div class="modal">
+        <div class="team__modal">
+            <div class="team-wrapper">
+                <div class="team__modal--header">
+                    <h1>John Doe</h1>
+                </div>
+                <div class="team__close-modal">
+                    <i class="fas fa-times fa-2x"></i>
+                </div>
+            </div>
+            <div class="modal__wrapper">
+                <div class="team__modal--desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ad assumenda illum obcaecati, vitae, eaque adipisci aliquid minus voluptatum voluptatem sunt aperiam beatae id reiciendis ea ratione aspernatur corporis dolor!</p>
+                </div>
+                <div class="team__modal--img">
+                    <img src="img/workers/worker-1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="team__modal">
+            <div class="team-wrapper">
+                <div class="team__modal--header">
+                    <h1>Lucid Dream</h1>
+                </div>
+                <div class="team__close-modal">
+                    <i class="fas fa-times fa-2x"></i>
+                </div>
+            </div>
+            <div class="modal__wrapper">
+                <div class="team__modal--desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ad assumenda illum obcaecati, vitae, eaque adipisci aliquid minus voluptatum voluptatem sunt aperiam beatae id reiciendis ea ratione aspernatur corporis dolor!</p>
+                </div>
+                <div class="team__modal--img">
+                    <img src="img/workers/worker-2.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="team__modal">
+            <div class="team-wrapper">
+                <div class="team__modal--header">
+                    <h1>Viola Marquez</h1>
+                </div>
+                <div class="team__close-modal">
+                    <i class="fas fa-times fa-2x"></i>
+                </div>
+            </div>
+            <div class="modal__wrapper">
+                <div class="team__modal--desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ad assumenda illum obcaecati, vitae, eaque adipisci aliquid minus voluptatum voluptatem sunt aperiam beatae id reiciendis ea ratione aspernatur corporis dolor!</p>
+                </div>
+                <div class="team__modal--img">
+                    <img src="img/workers/worker-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="team__modal">
+            <div class="team-wrapper">
+                <div class="team__modal--header">
+                    <h1>Our Work</h1>
+                </div>
+                <div class="team__close-modal">
+                    <i class="fas fa-times fa-2x"></i>
+                </div>
+            </div>
+            <div class="modal__wrapper">
+                <div class="team__modal--desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ad assumenda illum obcaecati, vitae, eaque adipisci aliquid minus voluptatum voluptatem sunt aperiam beatae id reiciendis ea ratione aspernatur corporis dolor!</p>
+                </div>
+                <div class="team__modal--img">
+                    <img src="img/view-work/work-2.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- HEADER -->
+    <header class="page-menu-container">
+        <nav class="navbar navbar-fixed-top">
+            <div class="nav__content-box">
+                <div class="nav__content-box--header animated fadeInDown">
+                    <a id="navbar-logo" href="#home">
+                        BONITA
+                    </a>
+                    <button class="toggle-button" id="menu-button">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </button>
+                </div>
+                <div class="nav__content-box--menu animated fadeInDown page-menu" id="page-menu">
+                    <ul class="navbar-list page-menu--list">
+                        <li class="page-menu--item"><a class="scroll" href="#home">Home</a></li>
+                        <li class="page-menu--item"><a class="scroll" href="#services">Usługi</a></li>
+                        <li class="page-menu--item"><a class="scroll" href="#info">O firmie</a></li>
+                        <li class="page-menu--item"><a class="scroll" href="#team">Zespół</a></li>
+                        <li class="page-menu--item"><a class="scroll" href="#partners">Współpraca</a></li>
+                        <li class="page-menu--item"><a class="scroll" href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="#home">Home</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#services">Usługi</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#info">O firmie</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#team">Zespół</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#partners">Współpraca</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#contact">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- HOME -->
+    <section id="home">
+        <div class="home__content-box bg-parallax animated fadeIn">
+            <div class="home__logo--triangle"></div>
+            <div class="home__content-box--heading animated zoomIn">
+                <h3>Bonita</h3>
+            </div>
+            <div class="generic__content-box--btn animated zoomIn">
+                <a class="generic-btn" href="#info" role="button" title="Wyswietl Nasza Prace">Zobacz Naszą Pracę</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="services__content-box">
+            <div class="services__content-box--heading wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h2>Usługi</h2>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="services__content-box--items">
+
+                <div class="services__content-box--item wow animated fadeInUp item-grow" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="service-item-icon">
+                        <i class="fas fa-scroll fa-3x"></i>
+                    </div>
+                    <div class="flex-wrapper">
+                        <div class="service-item-title">
+                            <h3>Wyceny</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__content-box--item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="service-item-icon">
+                        <i class="fas fa-building fa-3x"></i>
+                    </div>
+                    <div class="flex-wrapper">
+                        <div class="service-item-title">
+                            <h3>Wspólnoty mieszkaniowe</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__content-box--item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="service-item-icon">
+                        <i class="fas fa-user-check fa-3x"></i>
+                    </div>
+                    <div class="flex-wrapper">
+                        <div class="service-item-title">
+                            <h3>Zarządzanie nieruchomościami</h3>
+                        </div>
+                        <div class="service-item-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFO -->
+    <section id="info">
+
+        <div class="info__content-box bg-parallax wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+            <!-- About right side with diagional BG parallax -->
+            <div id="info-bg-diagonal" class="bg-parallax"></div>
+        </div>
+
+        <div class="info__content-box--company">
+            <div class="info__content-box--text wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h2>O firmie</h2>
+                <div class="content-title-underline"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae laboriosam optio commodi libero cupiditate error nostrum quo, ipsam officia numquam enim doloribus voluptatum. Laudantium fugiat libero sint natus, necessitatibus culpa.</p>
+            </div>
+            <div class="generic__content-box--btn wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <a class="generic-btn my-btn info-btn media-btn" href="#work" role="button" title="Wyswietl Nasza Prace">Dowiedz się więcej</a>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="about-gradient"></div>
+        <div class="about__content-box">
+            <div class="about__content-box--left wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>Nasze<br>mocne<br>strony</h3>
+            </div>
+            <div class="about__content-box--right wow animated fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="about__header-element">
+                    <h2>Wyszkolony personel</h2>
+                </div>
+                <div class="about__paragraph-element">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="about__header-element">
+                    <h2>Wysoka reaktywność</h2>
+                </div>
+                <div class="about__paragraph-element">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="about__header-element">
+                    <h2>Indywidualne podejście</h2>
+                </div>
+                <div class="about__paragraph-element">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--
+    BEM
+    
+    block <secition class="images-awesome">
+    element   <div class="images-awesome__frame"></div>
+    modifier  <div class="images-awesome__frame--people"></div>
+-->
+    <!-- TEAM -->
+    <section id="team">
+        <div class="team__content-box">
+            <div class="team__content-box--heading wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h2>Nasz zespół</h2>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="team__content-box--outer wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="team__content-box--inner">
+                    <div class="team__content-box--parent">
+                        <div class="team__content-box--member worker-1">
+                            <a class="overlay">
+                                <i class="fas fa-search-plus fa-5x"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-box--parent">
+                        <div class="team__content-box--member worker-2">
+                            <a class="overlay">
+                                <i class="fas fa-search-plus fa-5x"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team__content-box--parent">
+                        <div class="team__content-box--member worker-3">
+                            <a class="overlay">
+                                <i class="fas fa-search-plus fa-5x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section id="partners">
+        <div class="partners__content-box">
+            <div class="partners__content-box--heading wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h2>Współpraca</h2>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="partners__content-box--carousel owl-carousel owl-theme wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="partner">
+                    <img src="img/logos/logo-1.jpg" alt="partner">
+                </div>
+                <div class="partner">
+                    <img src="img/logos/logo-2.jpg" alt="partner">
+                </div>
+                <div class="partner">
+                    <img src="img/logos/logo-3.jpg" alt="partner">
+                </div>
+                <div class="partner">
+                    <img src="img/logos/logo-4.jpg" alt="partner">
+                </div>
+                <div class="partner">
+                    <img src="img/logos/logo-5.jpg" alt="partner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="contact" class="footer__content-box">
+            <div class="contact__left">
+                <div class="contact__left--heading">
+                    <h3>Bonita</h3>
+                </div>
+                <div class="contact__left--desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="contact__info">
+                    <div class="contact__address">
+                        <p><strong>Siedziba główna:</strong><br>ul. Random Street 8,<br>32-500 Chrzanów</p>
+                    </div>
+                    <div class="phone-fax-email">
+                        <p>
+                            <strong>Telefon: </strong>(032) 6275533<br><strong>Fax: </strong>(032) 6275533<br><strong>Email: </strong>nieruchomosci@bonita.pl<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact__right">
+                <div class="contact__right--heading">
+                    <h3>Skontaktuj się z nami</h3>
+                </div>
+                <div class="contact__right--form">
+                    <form class="contact-form" action="#">
+                        <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+                        <input type="text" name="email" placeholder="Email Address" class="form-control">
+                        <textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>
+                        <div id="contact-submit-btn">
+                            <a class="generic-btn" href="#" role="button">SEND</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__bottom--right">
+                <p>Copyrights &copy; 2018 All Rights Reserved by Bonita inc.</p>
+            </div>
+            <div class="footer__bottom--nav">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a class="scroll" href="#home">Home</a></li>
+                        <li>|</li>
+                        <li><a class="scroll" href="#services">Usługi</a></li>
+                        <li>|</li>
+                        <li><a class="scroll" href="#info">O firmie</a></li>
+                        <li>|</li>
+                        <li><a class="scroll" href="#about">O nas</a></li>
+                        <li>|</li>
+                        <li><a class="scroll" href="#team">Zespół</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <a href="#home" id="back-to-top" class="btn-back-to-top generic-btn info-btn scroll" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery/jQuery.js"></script>
+
+    <!-- WOW animate on scroll -->
+    <script src="js/wow/wow.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owlcarousel/js/owl.carousel.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- easing -->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
+
+    <!-- custom JS -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
